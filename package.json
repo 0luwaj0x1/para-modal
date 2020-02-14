@@ -1,0 +1,36 @@
+{
+  "name": "para-modal",
+  "version": "1.0.0",
+  "description": "A reusable, flexible react modal",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src/index.js --out-file=dist/index.js --presets=env,react",
+    "minify": "babel dist/index.js --out-file=dist/index.js --presets minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fullstackmofo/para-modal.git"
+  },
+  "keywords": [
+    "react",
+    "modal",
+    "reusable",
+    "popup",
+    "javascript"
+  ],
+  "author": "Josiah Ilesanmi <ilesanmi.josiah@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fullstackmofo/para-modal/issues"
+  },
+  "homepage": "https://github.com/fullstackmofo/para-modal#readme",
+  "peerDependencies": {
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "1.7.0",
+    "babel-preset-minify": "0.5.1",
+    "babel-preset-react": "6.24.1"
+  }
+}
