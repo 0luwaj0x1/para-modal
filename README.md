@@ -23,7 +23,11 @@ import Modal from 'para-modal';
 class Component extends React.Component {
 
   render() {
-    return <Modal close={() => { console.log('pass a prop of however you want to close the modal')}} />
+    return (
+      <Modal close={() => {console.log('pass a fucntion as a prop to close the modal')} }>
+          <p>This is my modal content</p>
+      </Modal>
+    )
   }
 }
 ```
