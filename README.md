@@ -17,7 +17,6 @@ npm install para-modal --save
 
 ```js
 import React from 'react'
-import ReactDOM from 'react-dom';
 import Modal from 'para-modal';
 
 class Component extends React.Component {
